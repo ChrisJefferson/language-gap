@@ -1,18 +1,18 @@
 {
   "name": "language-gap",
   "version": "0.1.0",
-  "engines": {
-    "atom": "*",
-    "node": "*"
-  },
   "description": "GAP language support in Atom",
+  "keywords": [
+  ],
   "homepage": "https://github.com/ChrisJefferson/language-gap",
   "repository": {
     "type": "git",
     "url": "https://github.com/ChrisJefferson/language-gap.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ChrisJefferson/language-gap/issues"
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
   }
 }

@@ -1,6 +1,3 @@
-# GAP language support in Atom
+# language-gap package
 
-Adds syntax highlighting for GAP files in Atom.
-
-Contributions are greatly appreciated. Please fork this repository and open a
-pull request to add snippets, make grammar tweaks, etc.
+A short description of your package.

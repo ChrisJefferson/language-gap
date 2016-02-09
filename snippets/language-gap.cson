@@ -1,0 +1,39 @@
+".source.gap":
+  "Create Function":
+    prefix: "fun"
+    body: '''
+      ${1:function_name} := function(${2:params})
+      	${3:# TODO: implement $1}
+      end;
+    '''
+  "For Statement":
+    prefix: "for"
+    body: '''
+      for $1 do
+      	${2:# TODO: implement }
+      od;
+    '''
+  "If Statement":
+    prefix: "if"
+    body: '''
+      if $1 then
+      	${2:# TODO: implement}
+      fi;
+    '''
+  Print:
+    prefix: "p"
+    body: "Print(\"$1\");"
+  "Repeat Statement":
+    prefix: "re"
+    body: '''
+      repeat
+      	${1:# TODO: implement}
+      until ${3:false;}
+    '''
+  "While Statement":
+    prefix: "wh"
+    body: '''
+      while $1 do
+      	${2:# TODO: implement }
+      od;
+    '''
