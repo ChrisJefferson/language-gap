@@ -1,0 +1,26 @@
+{
+    "name": "gap",
+    "displayName": "GAP",
+    "description": "GAP Language",
+    "version": "0.0.1",
+    "publisher": "azumanga",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gap",
+            "aliases": ["GAP", "gap"],
+            "extensions": [".g",".gi",".gd","..gaprc"],
+            "configuration": "./gap.configuration.json"
+        }],
+        "grammars": [{
+            "language": "gap",
+            "scopeName": "source.gap",
+            "path": "./syntaxes/gap.tmLanguage"
+        }]
+    }
+}
