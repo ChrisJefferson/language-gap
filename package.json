@@ -2,7 +2,7 @@
     "name": "gap",
     "displayName": "GAP",
     "description": "GAP Language",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "gap",
     "engines": {
         "vscode": "^1.0.0"
