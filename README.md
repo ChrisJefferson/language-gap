@@ -1,7 +1,7 @@
 This package provides colouring and syntax highlighting for the GAP programming language
 
-http://www.gap-system.org
+https://www.gap-system.org
 
-http://www.github.com/gap-system/gap
+https://github.com/gap-system/gap
 
 **Enjoy!**
